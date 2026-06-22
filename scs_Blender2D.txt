@@ -1,0 +1,3796 @@
+from random import *
+import bpy
+
+z = 5
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet0 = 0, y, z
+
+pointSet1 = 490, y, z
+
+pointSet2 = 490, x, z
+
+pointSet3 = 0, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet0, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet1, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet2, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet3, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet1 = 10, y, z
+
+pointSet2 = 480, y, z
+
+pointSet3 = 480, x, z
+
+pointSet4 = 10, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet1, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet2, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet3, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet4, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet2 = 20, y, z
+
+pointSet3 = 470, y, z
+
+pointSet4 = 470, x, z
+
+pointSet5 = 20, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet2, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet3, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet4, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet5, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet3 = 30, y, z
+
+pointSet4 = 460, y, z
+
+pointSet5 = 460, x, z
+
+pointSet6 = 30, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet3, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet4, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet5, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet6, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet4 = 40, y, z
+
+pointSet5 = 450, y, z
+
+pointSet6 = 450, x, z
+
+pointSet7 = 40, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet4, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet5, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet6, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet7, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet5 = 50, y, z
+
+pointSet6 = 440, y, z
+
+pointSet7 = 440, x, z
+
+pointSet8 = 50, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet5, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet6, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet7, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet8, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet6 = 60, y, z
+
+pointSet7 = 430, y, z
+
+pointSet8 = 430, x, z
+
+pointSet9 = 60, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet6, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet7, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet8, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet9, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet7 = 70, y, z
+
+pointSet8 = 420, y, z
+
+pointSet9 = 420, x, z
+
+pointSet10 = 70, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet7, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet8, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet9, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet10, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet8 = 80, y, z
+
+pointSet9 = 410, y, z
+
+pointSet10 = 410, x, z
+
+pointSet11 = 80, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet8, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet9, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet10, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet11, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet9 = 90, y, z
+
+pointSet10 = 400, y, z
+
+pointSet11 = 400, x, z
+
+pointSet12 = 90, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet9, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet10, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet11, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet12, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet10 = 100, y, z
+
+pointSet11 = 390, y, z
+
+pointSet12 = 390, x, z
+
+pointSet13 = 100, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet10, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet11, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet12, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet13, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet11 = 110, y, z
+
+pointSet12 = 380, y, z
+
+pointSet13 = 380, x, z
+
+pointSet14 = 110, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet11, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet12, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet13, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet14, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet12 = 120, y, z
+
+pointSet13 = 370, y, z
+
+pointSet14 = 370, x, z
+
+pointSet15 = 120, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet12, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet13, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet14, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet15, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet13 = 130, y, z
+
+pointSet14 = 360, y, z
+
+pointSet15 = 360, x, z
+
+pointSet16 = 130, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet13, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet14, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet15, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet16, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet14 = 140, y, z
+
+pointSet15 = 350, y, z
+
+pointSet16 = 350, x, z
+
+pointSet17 = 140, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet14, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet15, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet16, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet17, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet15 = 150, y, z
+
+pointSet16 = 340, y, z
+
+pointSet17 = 340, x, z
+
+pointSet18 = 150, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet15, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet16, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet17, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet18, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet16 = 160, y, z
+
+pointSet17 = 330, y, z
+
+pointSet18 = 330, x, z
+
+pointSet19 = 160, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet16, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet17, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet18, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet19, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet17 = 170, y, z
+
+pointSet18 = 320, y, z
+
+pointSet19 = 320, x, z
+
+pointSet20 = 170, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet17, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet18, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet19, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet20, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet18 = 180, y, z
+
+pointSet19 = 310, y, z
+
+pointSet20 = 310, x, z
+
+pointSet21 = 180, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet18, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet19, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet20, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet21, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet19 = 190, y, z
+
+pointSet20 = 300, y, z
+
+pointSet21 = 300, x, z
+
+pointSet22 = 190, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet19, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet20, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet21, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet22, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet20 = 200, y, z
+
+pointSet21 = 290, y, z
+
+pointSet22 = 290, x, z
+
+pointSet23 = 200, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet20, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet21, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet22, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet23, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet21 = 210, y, z
+
+pointSet22 = 280, y, z
+
+pointSet23 = 280, x, z
+
+pointSet24 = 210, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet21, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet22, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet23, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet24, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet22 = 220, y, z
+
+pointSet23 = 270, y, z
+
+pointSet24 = 270, x, z
+
+pointSet25 = 220, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet22, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet23, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet24, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet25, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet23 = 230, y, z
+
+pointSet24 = 260, y, z
+
+pointSet25 = 260, x, z
+
+pointSet26 = 230, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet23, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet24, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet25, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet26, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet24 = 240, y, z
+
+pointSet25 = 250, y, z
+
+pointSet26 = 250, x, z
+
+pointSet27 = 240, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet24, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet25, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet26, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet27, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet25 = 250, y, z
+
+pointSet26 = 240, y, z
+
+pointSet27 = 240, x, z
+
+pointSet28 = 250, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet25, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet26, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet27, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet28, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet26 = 260, y, z
+
+pointSet27 = 230, y, z
+
+pointSet28 = 230, x, z
+
+pointSet29 = 260, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet26, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet27, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet28, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet29, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet27 = 270, y, z
+
+pointSet28 = 220, y, z
+
+pointSet29 = 220, x, z
+
+pointSet30 = 270, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet27, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet28, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet29, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet30, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet28 = 280, y, z
+
+pointSet29 = 210, y, z
+
+pointSet30 = 210, x, z
+
+pointSet31 = 280, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet28, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet29, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet30, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet31, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet29 = 290, y, z
+
+pointSet30 = 200, y, z
+
+pointSet31 = 200, x, z
+
+pointSet32 = 290, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet29, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet30, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet31, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet32, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet30 = 300, y, z
+
+pointSet31 = 190, y, z
+
+pointSet32 = 190, x, z
+
+pointSet33 = 300, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet30, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet31, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet32, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet33, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet31 = 310, y, z
+
+pointSet32 = 180, y, z
+
+pointSet33 = 180, x, z
+
+pointSet34 = 310, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet31, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet32, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet33, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet34, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet32 = 320, y, z
+
+pointSet33 = 170, y, z
+
+pointSet34 = 170, x, z
+
+pointSet35 = 320, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet32, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet33, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet34, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet35, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet33 = 330, y, z
+
+pointSet34 = 160, y, z
+
+pointSet35 = 160, x, z
+
+pointSet36 = 330, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet33, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet34, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet35, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet36, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet34 = 340, y, z
+
+pointSet35 = 150, y, z
+
+pointSet36 = 150, x, z
+
+pointSet37 = 340, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet34, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet35, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet36, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet37, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet35 = 350, y, z
+
+pointSet36 = 140, y, z
+
+pointSet37 = 140, x, z
+
+pointSet38 = 350, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet35, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet36, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet37, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet38, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet36 = 360, y, z
+
+pointSet37 = 130, y, z
+
+pointSet38 = 130, x, z
+
+pointSet39 = 360, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet36, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet37, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet38, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet39, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet37 = 370, y, z
+
+pointSet38 = 120, y, z
+
+pointSet39 = 120, x, z
+
+pointSet40 = 370, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet37, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet38, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet39, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet40, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet38 = 380, y, z
+
+pointSet39 = 110, y, z
+
+pointSet40 = 110, x, z
+
+pointSet41 = 380, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet38, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet39, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet40, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet41, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet39 = 390, y, z
+
+pointSet40 = 100, y, z
+
+pointSet41 = 100, x, z
+
+pointSet42 = 390, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet39, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet40, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet41, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet42, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet40 = 400, y, z
+
+pointSet41 = 90, y, z
+
+pointSet42 = 90, x, z
+
+pointSet43 = 400, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet40, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet41, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet42, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet43, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet41 = 410, y, z
+
+pointSet42 = 80, y, z
+
+pointSet43 = 80, x, z
+
+pointSet44 = 410, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet41, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet42, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet43, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet44, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet42 = 420, y, z
+
+pointSet43 = 70, y, z
+
+pointSet44 = 70, x, z
+
+pointSet45 = 420, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet42, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet43, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet44, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet45, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet43 = 430, y, z
+
+pointSet44 = 60, y, z
+
+pointSet45 = 60, x, z
+
+pointSet46 = 430, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet43, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet44, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet45, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet46, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet44 = 440, y, z
+
+pointSet45 = 50, y, z
+
+pointSet46 = 50, x, z
+
+pointSet47 = 440, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet44, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet45, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet46, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet47, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet45 = 450, y, z
+
+pointSet46 = 40, y, z
+
+pointSet47 = 40, x, z
+
+pointSet48 = 450, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet45, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet46, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet47, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet48, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet46 = 460, y, z
+
+pointSet47 = 30, y, z
+
+pointSet48 = 30, x, z
+
+pointSet49 = 460, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet46, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet47, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet48, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet49, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet47 = 470, y, z
+
+pointSet48 = 20, y, z
+
+pointSet49 = 20, x, z
+
+pointSet50 = 470, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet47, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet48, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet49, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet50, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet48 = 480, y, z
+
+pointSet49 = 10, y, z
+
+pointSet50 = 10, x, z
+
+pointSet51 = 480, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet48, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet49, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet50, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet51, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet49 = 490, y, z
+
+pointSet50 = 0, y, z
+
+pointSet51 = 0, x, z
+
+pointSet52 = 490, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet49, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet50, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet51, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet52, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+pointSet0 = 0, y, z
+
+pointSet1 = -490, y, z
+
+pointSet2 = -490, x, z
+
+pointSet3 = 0, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet0, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet1, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet2, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet3, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet1 = -10, y, z
+
+pointSet2 = -480, y, z
+
+pointSet3 = -480, x, z
+
+pointSet4 = -10, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet1, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet2, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet3, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet4, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet2 = -20, y, z
+
+pointSet3 = -470, y, z
+
+pointSet4 = -470, x, z
+
+pointSet5 = -20, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet2, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet3, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet4, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet5, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet3 = -30, y, z
+
+pointSet4 = -460, y, z
+
+pointSet5 = -460, x, z
+
+pointSet6 = -30, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet3, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet4, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet5, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet6, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet4 = -40, y, z
+
+pointSet5 = -450, y, z
+
+pointSet6 = -450, x, z
+
+pointSet7 = -40, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet4, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet5, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet6, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet7, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet5 = -50, y, z
+
+pointSet6 = -440, y, z
+
+pointSet7 = -440, x, z
+
+pointSet8 = -50, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet5, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet6, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet7, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet8, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet6 = -60, y, z
+
+pointSet7 = -430, y, z
+
+pointSet8 = -430, x, z
+
+pointSet9 = -60, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet6, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet7, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet8, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet9, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet7 = -70, y, z
+
+pointSet8 = -420, y, z
+
+pointSet9 = -420, x, z
+
+pointSet10 = -70, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet7, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet8, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet9, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet10, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet8 = -80, y, z
+
+pointSet9 = -410, y, z
+
+pointSet10 = -410, x, z
+
+pointSet11 = -80, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet8, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet9, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet10, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet11, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet9 = -90, y, z
+
+pointSet10 = -400, y, z
+
+pointSet11 = -400, x, z
+
+pointSet12 = -90, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet9, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet10, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet11, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet12, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet10 = -100, y, z
+
+pointSet11 = -390, y, z
+
+pointSet12 = -390, x, z
+
+pointSet13 = -100, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet10, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet11, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet12, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet13, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet11 = -110, y, z
+
+pointSet12 = -380, y, z
+
+pointSet13 = -380, x, z
+
+pointSet14 = -110, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet11, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet12, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet13, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet14, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet12 = -120, y, z
+
+pointSet13 = -370, y, z
+
+pointSet14 = -370, x, z
+
+pointSet15 = -120, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet12, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet13, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet14, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet15, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet13 = -130, y, z
+
+pointSet14 = -360, y, z
+
+pointSet15 = -360, x, z
+
+pointSet16 = -130, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet13, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet14, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet15, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet16, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet14 = -140, y, z
+
+pointSet15 = -350, y, z
+
+pointSet16 = -350, x, z
+
+pointSet17 = -140, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet14, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet15, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet16, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet17, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet15 = -150, y, z
+
+pointSet16 = -340, y, z
+
+pointSet17 = -340, x, z
+
+pointSet18 = -150, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet15, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet16, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet17, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet18, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet16 = -160, y, z
+
+pointSet17 = -330, y, z
+
+pointSet18 = -330, x, z
+
+pointSet19 = -160, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet16, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet17, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet18, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet19, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet17 = -170, y, z
+
+pointSet18 = -320, y, z
+
+pointSet19 = -320, x, z
+
+pointSet20 = -170, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet17, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet18, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet19, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet20, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet18 = -180, y, z
+
+pointSet19 = -310, y, z
+
+pointSet20 = -310, x, z
+
+pointSet21 = -180, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet18, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet19, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet20, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet21, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet19 = -190, y, z
+
+pointSet20 = -300, y, z
+
+pointSet21 = -300, x, z
+
+pointSet22 = -190, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet19, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet20, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet21, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet22, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet20 = -200, y, z
+
+pointSet21 = -290, y, z
+
+pointSet22 = -290, x, z
+
+pointSet23 = -200, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet20, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet21, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet22, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet23, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet21 = -210, y, z
+
+pointSet22 = -280, y, z
+
+pointSet23 = -280, x, z
+
+pointSet24 = -210, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet21, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet22, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet23, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet24, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet22 = -220, y, z
+
+pointSet23 = -270, y, z
+
+pointSet24 = -270, x, z
+
+pointSet25 = -220, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet22, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet23, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet24, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet25, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet23 = -230, y, z
+
+pointSet24 = -260, y, z
+
+pointSet25 = -260, x, z
+
+pointSet26 = -230, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet23, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet24, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet25, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet26, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet24 = -240, y, z
+
+pointSet25 = -250, y, z
+
+pointSet26 = -250, x, z
+
+pointSet27 = -240, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet24, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet25, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet26, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet27, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet25 = -250, y, z
+
+pointSet26 = -240, y, z
+
+pointSet27 = -240, x, z
+
+pointSet28 = -250, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet25, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet26, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet27, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet28, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet26 = -260, y, z
+
+pointSet27 = -230, y, z
+
+pointSet28 = -230, x, z
+
+pointSet29 = -260, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet26, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet27, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet28, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet29, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet27 = -270, y, z
+
+pointSet28 = -220, y, z
+
+pointSet29 = -220, x, z
+
+pointSet30 = -270, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet27, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet28, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet29, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet30, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet28 = -280, y, z
+
+pointSet29 = -210, y, z
+
+pointSet30 = -210, x, z
+
+pointSet31 = -280, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet28, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet29, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet30, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet31, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet29 = -290, y, z
+
+pointSet30 = -200, y, z
+
+pointSet31 = -200, x, z
+
+pointSet32 = -290, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet29, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet30, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet31, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet32, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet30 = -300, y, z
+
+pointSet31 = -190, y, z
+
+pointSet32 = -190, x, z
+
+pointSet33 = -300, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet30, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet31, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet32, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet33, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet31 = -310, y, z
+
+pointSet32 = -180, y, z
+
+pointSet33 = -180, x, z
+
+pointSet34 = -310, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet31, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet32, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet33, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet34, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet32 = -320, y, z
+
+pointSet33 = -170, y, z
+
+pointSet34 = -170, x, z
+
+pointSet35 = -320, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet32, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet33, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet34, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet35, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet33 = -330, y, z
+
+pointSet34 = -160, y, z
+
+pointSet35 = -160, x, z
+
+pointSet36 = -330, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet33, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet34, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet35, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet36, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet34 = -340, y, z
+
+pointSet35 = -150, y, z
+
+pointSet36 = -150, x, z
+
+pointSet37 = -340, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet34, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet35, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet36, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet37, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet35 = -350, y, z
+
+pointSet36 = -140, y, z
+
+pointSet37 = -140, x, z
+
+pointSet38 = -350, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet35, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet36, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet37, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet38, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet36 = -360, y, z
+
+pointSet37 = -130, y, z
+
+pointSet38 = -130, x, z
+
+pointSet39 = -360, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet36, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet37, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet38, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet39, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet37 = -370, y, z
+
+pointSet38 = -120, y, z
+
+pointSet39 = -120, x, z
+
+pointSet40 = -370, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet37, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet38, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet39, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet40, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet38 = -380, y, z
+
+pointSet39 = -110, y, z
+
+pointSet40 = -110, x, z
+
+pointSet41 = -380, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet38, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet39, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet40, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet41, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet39 = -390, y, z
+
+pointSet40 = -100, y, z
+
+pointSet41 = -100, x, z
+
+pointSet42 = -390, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet39, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet40, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet41, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet42, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet40 = -400, y, z
+
+pointSet41 = -90, y, z
+
+pointSet42 = -90, x, z
+
+pointSet43 = -400, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet40, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet41, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet42, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet43, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet41 = -410, y, z
+
+pointSet42 = -80, y, z
+
+pointSet43 = -80, x, z
+
+pointSet44 = -410, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet41, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet42, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet43, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet44, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet42 = -420, y, z
+
+pointSet43 = -70, y, z
+
+pointSet44 = -70, x, z
+
+pointSet45 = -420, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet42, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet43, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet44, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet45, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet43 = -430, y, z
+
+pointSet44 = -60, y, z
+
+pointSet45 = -60, x, z
+
+pointSet46 = -430, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet43, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet44, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet45, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet46, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet44 = -440, y, z
+
+pointSet45 = -50, y, z
+
+pointSet46 = -50, x, z
+
+pointSet47 = -440, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet44, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet45, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet46, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet47, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet45 = -450, y, z
+
+pointSet46 = -40, y, z
+
+pointSet47 = -40, x, z
+
+pointSet48 = -450, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet45, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet46, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet47, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet48, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet46 = -460, y, z
+
+pointSet47 = -30, y, z
+
+pointSet48 = -30, x, z
+
+pointSet49 = -460, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet46, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet47, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet48, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet49, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet47 = -470, y, z
+
+pointSet48 = -20, y, z
+
+pointSet49 = -20, x, z
+
+pointSet50 = -470, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet47, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet48, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet49, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet50, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet48 = -480, y, z
+
+pointSet49 = -10, y, z
+
+pointSet50 = -10, x, z
+
+pointSet51 = -480, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet48, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet49, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet50, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet51, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)
+y = int(randint(0, 64) * 10.)
+
+pointSet49 = -490, y, z
+
+pointSet50 = 0, y, z
+
+pointSet51 = 0, x, z
+
+pointSet52 = -490, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet49, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet50, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet51, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet52, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+
+pointSet0 = 0, y, z
+
+pointSet1 = -490, y, z
+
+pointSet2 = -490, x, z
+
+pointSet3 = 0, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet0, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet1, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet2, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet3, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet1 = -10, y, z
+
+pointSet2 = -480, y, z
+
+pointSet3 = -480, x, z
+
+pointSet4 = -10, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet1, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet2, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet3, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet4, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet2 = -20, y, z
+
+pointSet3 = -470, y, z
+
+pointSet4 = -470, x, z
+
+pointSet5 = -20, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet2, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet3, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet4, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet5, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet3 = -30, y, z
+
+pointSet4 = -460, y, z
+
+pointSet5 = -460, x, z
+
+pointSet6 = -30, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet3, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet4, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet5, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet6, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet4 = -40, y, z
+
+pointSet5 = -450, y, z
+
+pointSet6 = -450, x, z
+
+pointSet7 = -40, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet4, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet5, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet6, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet7, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet5 = -50, y, z
+
+pointSet6 = -440, y, z
+
+pointSet7 = -440, x, z
+
+pointSet8 = -50, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet5, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet6, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet7, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet8, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet6 = -60, y, z
+
+pointSet7 = -430, y, z
+
+pointSet8 = -430, x, z
+
+pointSet9 = -60, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet6, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet7, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet8, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet9, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet7 = -70, y, z
+
+pointSet8 = -420, y, z
+
+pointSet9 = -420, x, z
+
+pointSet10 = -70, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet7, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet8, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet9, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet10, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet8 = -80, y, z
+
+pointSet9 = -410, y, z
+
+pointSet10 = -410, x, z
+
+pointSet11 = -80, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet8, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet9, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet10, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet11, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet9 = -90, y, z
+
+pointSet10 = -400, y, z
+
+pointSet11 = -400, x, z
+
+pointSet12 = -90, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet9, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet10, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet11, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet12, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet10 = -100, y, z
+
+pointSet11 = -390, y, z
+
+pointSet12 = -390, x, z
+
+pointSet13 = -100, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet10, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet11, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet12, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet13, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet11 = -110, y, z
+
+pointSet12 = -380, y, z
+
+pointSet13 = -380, x, z
+
+pointSet14 = -110, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet11, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet12, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet13, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet14, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet12 = -120, y, z
+
+pointSet13 = -370, y, z
+
+pointSet14 = -370, x, z
+
+pointSet15 = -120, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet12, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet13, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet14, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet15, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet13 = -130, y, z
+
+pointSet14 = -360, y, z
+
+pointSet15 = -360, x, z
+
+pointSet16 = -130, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet13, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet14, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet15, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet16, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet14 = -140, y, z
+
+pointSet15 = -350, y, z
+
+pointSet16 = -350, x, z
+
+pointSet17 = -140, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet14, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet15, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet16, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet17, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet15 = -150, y, z
+
+pointSet16 = -340, y, z
+
+pointSet17 = -340, x, z
+
+pointSet18 = -150, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet15, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet16, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet17, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet18, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet16 = -160, y, z
+
+pointSet17 = -330, y, z
+
+pointSet18 = -330, x, z
+
+pointSet19 = -160, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet16, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet17, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet18, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet19, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet17 = -170, y, z
+
+pointSet18 = -320, y, z
+
+pointSet19 = -320, x, z
+
+pointSet20 = -170, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet17, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet18, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet19, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet20, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet18 = -180, y, z
+
+pointSet19 = -310, y, z
+
+pointSet20 = -310, x, z
+
+pointSet21 = -180, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet18, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet19, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet20, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet21, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet19 = -190, y, z
+
+pointSet20 = -300, y, z
+
+pointSet21 = -300, x, z
+
+pointSet22 = -190, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet19, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet20, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet21, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet22, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet20 = -200, y, z
+
+pointSet21 = -290, y, z
+
+pointSet22 = -290, x, z
+
+pointSet23 = -200, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet20, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet21, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet22, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet23, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet21 = -210, y, z
+
+pointSet22 = -280, y, z
+
+pointSet23 = -280, x, z
+
+pointSet24 = -210, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet21, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet22, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet23, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet24, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet22 = -220, y, z
+
+pointSet23 = -270, y, z
+
+pointSet24 = -270, x, z
+
+pointSet25 = -220, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet22, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet23, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet24, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet25, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet23 = -230, y, z
+
+pointSet24 = -260, y, z
+
+pointSet25 = -260, x, z
+
+pointSet26 = -230, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet23, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet24, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet25, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet26, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet24 = -240, y, z
+
+pointSet25 = -250, y, z
+
+pointSet26 = -250, x, z
+
+pointSet27 = -240, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet24, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet25, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet26, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet27, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet25 = -250, y, z
+
+pointSet26 = -240, y, z
+
+pointSet27 = -240, x, z
+
+pointSet28 = -250, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet25, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet26, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet27, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet28, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet26 = -260, y, z
+
+pointSet27 = -230, y, z
+
+pointSet28 = -230, x, z
+
+pointSet29 = -260, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet26, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet27, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet28, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet29, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet27 = -270, y, z
+
+pointSet28 = -220, y, z
+
+pointSet29 = -220, x, z
+
+pointSet30 = -270, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet27, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet28, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet29, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet30, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet28 = -280, y, z
+
+pointSet29 = -210, y, z
+
+pointSet30 = -210, x, z
+
+pointSet31 = -280, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet28, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet29, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet30, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet31, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet29 = -290, y, z
+
+pointSet30 = -200, y, z
+
+pointSet31 = -200, x, z
+
+pointSet32 = -290, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet29, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet30, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet31, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet32, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet30 = -300, y, z
+
+pointSet31 = -190, y, z
+
+pointSet32 = -190, x, z
+
+pointSet33 = -300, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet30, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet31, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet32, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet33, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet31 = -310, y, z
+
+pointSet32 = -180, y, z
+
+pointSet33 = -180, x, z
+
+pointSet34 = -310, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet31, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet32, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet33, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet34, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet32 = -320, y, z
+
+pointSet33 = -170, y, z
+
+pointSet34 = -170, x, z
+
+pointSet35 = -320, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet32, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet33, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet34, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet35, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet33 = -330, y, z
+
+pointSet34 = -160, y, z
+
+pointSet35 = -160, x, z
+
+pointSet36 = -330, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet33, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet34, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet35, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet36, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet34 = -340, y, z
+
+pointSet35 = -150, y, z
+
+pointSet36 = -150, x, z
+
+pointSet37 = -340, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet34, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet35, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet36, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet37, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet35 = -350, y, z
+
+pointSet36 = -140, y, z
+
+pointSet37 = -140, x, z
+
+pointSet38 = -350, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet35, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet36, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet37, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet38, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet36 = -360, y, z
+
+pointSet37 = -130, y, z
+
+pointSet38 = -130, x, z
+
+pointSet39 = -360, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet36, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet37, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet38, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet39, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet37 = -370, y, z
+
+pointSet38 = -120, y, z
+
+pointSet39 = -120, x, z
+
+pointSet40 = -370, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet37, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet38, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet39, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet40, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet38 = -380, y, z
+
+pointSet39 = -110, y, z
+
+pointSet40 = -110, x, z
+
+pointSet41 = -380, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet38, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet39, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet40, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet41, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet39 = -390, y, z
+
+pointSet40 = -100, y, z
+
+pointSet41 = -100, x, z
+
+pointSet42 = -390, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet39, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet40, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet41, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet42, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet40 = -400, y, z
+
+pointSet41 = -90, y, z
+
+pointSet42 = -90, x, z
+
+pointSet43 = -400, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet40, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet41, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet42, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet43, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet41 = -410, y, z
+
+pointSet42 = -80, y, z
+
+pointSet43 = -80, x, z
+
+pointSet44 = -410, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet41, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet42, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet43, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet44, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet42 = -420, y, z
+
+pointSet43 = -70, y, z
+
+pointSet44 = -70, x, z
+
+pointSet45 = -420, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet42, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet43, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet44, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet45, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet43 = -430, y, z
+
+pointSet44 = -60, y, z
+
+pointSet45 = -60, x, z
+
+pointSet46 = -430, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet43, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet44, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet45, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet46, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet44 = -440, y, z
+
+pointSet45 = -50, y, z
+
+pointSet46 = -50, x, z
+
+pointSet47 = -440, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet44, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet45, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet46, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet47, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet45 = -450, y, z
+
+pointSet46 = -40, y, z
+
+pointSet47 = -40, x, z
+
+pointSet48 = -450, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet45, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet46, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet47, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet48, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet46 = -460, y, z
+
+pointSet47 = -30, y, z
+
+pointSet48 = -30, x, z
+
+pointSet49 = -460, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet46, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet47, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet48, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet49, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet47 = -470, y, z
+
+pointSet48 = -20, y, z
+
+pointSet49 = -20, x, z
+
+pointSet50 = -470, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet47, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet48, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet49, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet50, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet48 = -480, y, z
+
+pointSet49 = -10, y, z
+
+pointSet50 = -10, x, z
+
+pointSet51 = -480, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet48, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet49, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet50, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet51, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet49 = -490, y, z
+
+pointSet50 = 0, y, z
+
+pointSet51 = 0, x, z
+
+pointSet52 = -490, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet49, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet50, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet51, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet52, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+pointSet0 = 0, y, z
+
+pointSet1 = 490, y, z
+
+pointSet2 = 490, x, z
+
+pointSet3 = 0, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet0, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet1, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet2, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet3, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet1 = 10, y, z
+
+pointSet2 = 480, y, z
+
+pointSet3 = 480, x, z
+
+pointSet4 = 10, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet1, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet2, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet3, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet4, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet2 = 20, y, z
+
+pointSet3 = 470, y, z
+
+pointSet4 = 470, x, z
+
+pointSet5 = 20, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet2, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet3, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet4, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet5, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet3 = 30, y, z
+
+pointSet4 = 460, y, z
+
+pointSet5 = 460, x, z
+
+pointSet6 = 30, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet3, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet4, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet5, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet6, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet4 = 40, y, z
+
+pointSet5 = 450, y, z
+
+pointSet6 = 450, x, z
+
+pointSet7 = 40, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet4, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet5, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet6, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet7, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet5 = 50, y, z
+
+pointSet6 = 440, y, z
+
+pointSet7 = 440, x, z
+
+pointSet8 = 50, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet5, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet6, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet7, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet8, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet6 = 60, y, z
+
+pointSet7 = 430, y, z
+
+pointSet8 = 430, x, z
+
+pointSet9 = 60, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet6, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet7, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet8, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet9, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet7 = 70, y, z
+
+pointSet8 = 420, y, z
+
+pointSet9 = 420, x, z
+
+pointSet10 = 70, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet7, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet8, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet9, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet10, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet8 = 80, y, z
+
+pointSet9 = 410, y, z
+
+pointSet10 = 410, x, z
+
+pointSet11 = 80, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet8, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet9, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet10, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet11, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet9 = 90, y, z
+
+pointSet10 = 400, y, z
+
+pointSet11 = 400, x, z
+
+pointSet12 = 90, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet9, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet10, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet11, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet12, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet10 = 100, y, z
+
+pointSet11 = 390, y, z
+
+pointSet12 = 390, x, z
+
+pointSet13 = 100, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet10, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet11, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet12, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet13, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet11 = 110, y, z
+
+pointSet12 = 380, y, z
+
+pointSet13 = 380, x, z
+
+pointSet14 = 110, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet11, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet12, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet13, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet14, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet12 = 120, y, z
+
+pointSet13 = 370, y, z
+
+pointSet14 = 370, x, z
+
+pointSet15 = 120, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet12, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet13, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet14, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet15, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet13 = 130, y, z
+
+pointSet14 = 360, y, z
+
+pointSet15 = 360, x, z
+
+pointSet16 = 130, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet13, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet14, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet15, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet16, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet14 = 140, y, z
+
+pointSet15 = 350, y, z
+
+pointSet16 = 350, x, z
+
+pointSet17 = 140, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet14, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet15, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet16, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet17, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet15 = 150, y, z
+
+pointSet16 = 340, y, z
+
+pointSet17 = 340, x, z
+
+pointSet18 = 150, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet15, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet16, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet17, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet18, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet16 = 160, y, z
+
+pointSet17 = 330, y, z
+
+pointSet18 = 330, x, z
+
+pointSet19 = 160, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet16, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet17, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet18, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet19, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet17 = 170, y, z
+
+pointSet18 = 320, y, z
+
+pointSet19 = 320, x, z
+
+pointSet20 = 170, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet17, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet18, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet19, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet20, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet18 = 180, y, z
+
+pointSet19 = 310, y, z
+
+pointSet20 = 310, x, z
+
+pointSet21 = 180, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet18, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet19, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet20, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet21, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet19 = 190, y, z
+
+pointSet20 = 300, y, z
+
+pointSet21 = 300, x, z
+
+pointSet22 = 190, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet19, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet20, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet21, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet22, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet20 = 200, y, z
+
+pointSet21 = 290, y, z
+
+pointSet22 = 290, x, z
+
+pointSet23 = 200, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet20, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet21, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet22, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet23, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet21 = 210, y, z
+
+pointSet22 = 280, y, z
+
+pointSet23 = 280, x, z
+
+pointSet24 = 210, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet21, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet22, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet23, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet24, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet22 = 220, y, z
+
+pointSet23 = 270, y, z
+
+pointSet24 = 270, x, z
+
+pointSet25 = 220, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet22, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet23, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet24, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet25, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet23 = 230, y, z
+
+pointSet24 = 260, y, z
+
+pointSet25 = 260, x, z
+
+pointSet26 = 230, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet23, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet24, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet25, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet26, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet24 = 240, y, z
+
+pointSet25 = 250, y, z
+
+pointSet26 = 250, x, z
+
+pointSet27 = 240, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet24, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet25, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet26, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet27, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet25 = 250, y, z
+
+pointSet26 = 240, y, z
+
+pointSet27 = 240, x, z
+
+pointSet28 = 250, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet25, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet26, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet27, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet28, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet26 = 260, y, z
+
+pointSet27 = 230, y, z
+
+pointSet28 = 230, x, z
+
+pointSet29 = 260, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet26, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet27, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet28, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet29, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet27 = 270, y, z
+
+pointSet28 = 220, y, z
+
+pointSet29 = 220, x, z
+
+pointSet30 = 270, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet27, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet28, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet29, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet30, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet28 = 280, y, z
+
+pointSet29 = 210, y, z
+
+pointSet30 = 210, x, z
+
+pointSet31 = 280, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet28, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet29, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet30, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet31, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet29 = 290, y, z
+
+pointSet30 = 200, y, z
+
+pointSet31 = 200, x, z
+
+pointSet32 = 290, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet29, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet30, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet31, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet32, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet30 = 300, y, z
+
+pointSet31 = 190, y, z
+
+pointSet32 = 190, x, z
+
+pointSet33 = 300, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet30, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet31, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet32, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet33, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet31 = 310, y, z
+
+pointSet32 = 180, y, z
+
+pointSet33 = 180, x, z
+
+pointSet34 = 310, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet31, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet32, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet33, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet34, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet32 = 320, y, z
+
+pointSet33 = 170, y, z
+
+pointSet34 = 170, x, z
+
+pointSet35 = 320, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet32, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet33, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet34, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet35, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet33 = 330, y, z
+
+pointSet34 = 160, y, z
+
+pointSet35 = 160, x, z
+
+pointSet36 = 330, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet33, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet34, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet35, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet36, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet34 = 340, y, z
+
+pointSet35 = 150, y, z
+
+pointSet36 = 150, x, z
+
+pointSet37 = 340, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet34, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet35, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet36, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet37, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet35 = 350, y, z
+
+pointSet36 = 140, y, z
+
+pointSet37 = 140, x, z
+
+pointSet38 = 350, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet35, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet36, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet37, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet38, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet36 = 360, y, z
+
+pointSet37 = 130, y, z
+
+pointSet38 = 130, x, z
+
+pointSet39 = 360, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet36, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet37, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet38, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet39, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet37 = 370, y, z
+
+pointSet38 = 120, y, z
+
+pointSet39 = 120, x, z
+
+pointSet40 = 370, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet37, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet38, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet39, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet40, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet38 = 380, y, z
+
+pointSet39 = 110, y, z
+
+pointSet40 = 110, x, z
+
+pointSet41 = 380, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet38, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet39, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet40, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet41, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet39 = 390, y, z
+
+pointSet40 = 100, y, z
+
+pointSet41 = 100, x, z
+
+pointSet42 = 390, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet39, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet40, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet41, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet42, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet40 = 400, y, z
+
+pointSet41 = 90, y, z
+
+pointSet42 = 90, x, z
+
+pointSet43 = 400, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet40, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet41, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet42, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet43, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet41 = 410, y, z
+
+pointSet42 = 80, y, z
+
+pointSet43 = 80, x, z
+
+pointSet44 = 410, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet41, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet42, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet43, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet44, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet42 = 420, y, z
+
+pointSet43 = 70, y, z
+
+pointSet44 = 70, x, z
+
+pointSet45 = 420, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet42, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet43, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet44, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet45, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet43 = 430, y, z
+
+pointSet44 = 60, y, z
+
+pointSet45 = 60, x, z
+
+pointSet46 = 430, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet43, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet44, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet45, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet46, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet44 = 440, y, z
+
+pointSet45 = 50, y, z
+
+pointSet46 = 50, x, z
+
+pointSet47 = 440, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet44, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet45, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet46, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet47, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet45 = 450, y, z
+
+pointSet46 = 40, y, z
+
+pointSet47 = 40, x, z
+
+pointSet48 = 450, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet45, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet46, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet47, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet48, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet46 = 460, y, z
+
+pointSet47 = 30, y, z
+
+pointSet48 = 30, x, z
+
+pointSet49 = 460, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet46, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet47, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet48, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet49, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet47 = 470, y, z
+
+pointSet48 = 20, y, z
+
+pointSet49 = 20, x, z
+
+pointSet50 = 470, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet47, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet48, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet49, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet50, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet48 = 480, y, z
+
+pointSet49 = 10, y, z
+
+pointSet50 = 10, x, z
+
+pointSet51 = 480, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet48, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet49, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet50, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet51, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+x = int(randint(0, 64) * 10.)*-1
+y = int(randint(0, 64) * 10.)*-1
+
+pointSet49 = 490, y, z
+
+pointSet50 = 0, y, z
+
+pointSet51 = 0, x, z
+
+pointSet52 = 490, x, z
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet49, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet50, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet51, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
+bpy.ops.mesh.primitive_cube_add(size=3.0, location=pointSet52, rotation=(0.0, 0.0, 0.0), scale=(1.0, 1.0, 1.0))
+
